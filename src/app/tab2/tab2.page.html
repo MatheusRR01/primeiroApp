@@ -1,16 +1,59 @@
+
+
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+    <ion-button slot="end"  shape="round">
+      <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+    </ion-button>
+    <ion-title>Cardápio</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-searchbar placeholder="Buscar"></ion-searchbar>
+  <ion-list-header>
+    <ion-label>Bebidas</ion-label>
+  </ion-list-header>
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail>
+        <img src="https://www.socialdub.com/groupspictures/9104/91041256111523078281.jpg?x2">
+      </ion-thumbnail>
+      <ion-badge slot="end">R$ 15,00</ion-badge>
+      <ion-label stacked class="my-label">Cocquinha 2L</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail>
+        <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo_legenda/24123158ee906c73e0847e3cf738259c.jpg">
+      </ion-thumbnail>
+      <ion-badge slot="end">R$ 9,00</ion-badge>
+      <ion-label>Guaranazin brabo</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail>
+        <img src="https://apoioentrega.vteximg.com.br/arquivos/ids/499157/REFRIG-PEPSI-200ML-PET-COLA-BLACK.png?v=637807804371800000">
+      </ion-thumbnail>
+      <ion-badge slot="end">R$ 13,00</ion-badge>
+      <ion-label>Pespi pode ser</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail>
+        <img src="https://t2.rg.ltmcdn.com/pt/posts/4/9/8/caipirinha_de_vodka_com_limao_8894_orig.jpg">
+      </ion-thumbnail>
+      <ion-badge slot="end">R$ 23,00</ion-badge>
+      <ion-label>Dolly limão, uma questão de bom senso</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail>
+        <img src="https://images-americanas.b2w.io/produtos/3081984565/imagens/canecao-caveira-para-chopp-cerveja-500-ml/3081984573_1_large.jpg">
+      </ion-thumbnail>
+      <ion-badge slot="end">€ 9,00</ion-badge>
+      <ion-label>Pint</ion-label>
+    </ion-item>
+  </ion-list>
 
 </ion-content>
