@@ -1,8 +1,6 @@
-
-
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-button slot="end"  shape="round">
+    <ion-button slot="end" shape="round">
       <ion-icon slot="icon-only" name="person-circle"></ion-icon>
     </ion-button>
     <ion-title>Cardápio</ion-title>
@@ -11,49 +9,110 @@
 
 <ion-content [fullscreen]="true">
   <ion-searchbar placeholder="Buscar"></ion-searchbar>
-  <ion-list-header>
-    <ion-label>Bebidas</ion-label>
-  </ion-list-header>
-  <ion-list>
-    <ion-item>
-      <ion-thumbnail>
-        <img src="https://www.socialdub.com/groupspictures/9104/91041256111523078281.jpg?x2">
-      </ion-thumbnail>
-      <ion-badge slot="end">R$ 15,00</ion-badge>
-      <ion-label stacked class="my-label">Cocquinha 2L</ion-label>
-    </ion-item>
 
-    <ion-item>
-      <ion-thumbnail>
-        <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo_legenda/24123158ee906c73e0847e3cf738259c.jpg">
-      </ion-thumbnail>
-      <ion-badge slot="end">R$ 9,00</ion-badge>
-      <ion-label>Guaranazin brabo</ion-label>
-    </ion-item>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-label>Coquinha</ion-label>
+          </ion-card-header>
+          <ion-item>
+            <img src="https://www.mundodomarketing.com.br/assets/img/lancamentos/imagem/ca0d3e28059ed0c99bfe908e87ea0e1c.jpg">
+          </ion-item>
+          <ion-item>
+            <ion-button slot="end">
+              <ion-icon name="cart"></ion-icon>
+            </ion-button>
+            <ion-label>R$5,00</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col> <!-- FINAL DA COQUINHA DE MURANGO -->
+      <ion-col size="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-label>Whisky</ion-label>
+          </ion-card-header>
+          <ion-item>
+            <img
+              src="https://carrefourbr.vtexassets.com/arquivos/ids/36955052-800-auto?v=637812556786070000&width=800&height=auto&aspect=true">
+          </ion-item>
+          <ion-item>
+            <ion-button slot="end">
+              <ion-icon name="cart"></ion-icon>
+            </ion-button>
+            <ion-label>R$175,00</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col> <!-- FINAL DO WHISKY -->
+      <ion-col size="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-label>Duff</ion-label>
+          </ion-card-header>
+          <ion-item>
+            <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/duff-beer-logo.png">
+          </ion-item>
+          <ion-item>
+            <ion-button slot="end">
+              <ion-icon name="cart"></ion-icon>
+            </ion-button>
+            <ion-label>$5,99</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col> <!-- FINAL DO WHISKY -->
+      <ion-col size="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-label>Chug Jugg</ion-label>
+          </ion-card-header>
+          <ion-item>
+            <img src="https://i.pinimg.com/originals/ff/75/a0/ff75a0f7f0bd7ab2542558e46380805c.png">
+          </ion-item>
+          <ion-item>
+            <ion-button slot="end">
+              <ion-icon name="cart"></ion-icon>
+            </ion-button>
+            <ion-label>R$500,00</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col> <!-- FINAL DO CHUG JUG -->
+      <ion-col size="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-label>Cerveja Artesanal</ion-label>
+          </ion-card-header>
+          <ion-item>
+            <img src="https://images.tcdn.com.br/img/img_prod/1052911/cerveja_schornstein_ipa_garrafa_500ml_1285_1_4c00dd64a3842fd305745a1cb7672ae6.png">
+          </ion-item>
+          <ion-item>
+            <ion-button slot="end">
+              <ion-icon name="cart"></ion-icon>
+            </ion-button>
+            <ion-label>R$25,00</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col> <!-- FINAL DA CERVEJA ARTESANAL -->
+      <ion-col size="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-label>Caipiroska</ion-label>
+          </ion-card-header>
+          <ion-item>
+            <img src="https://w7.pngwing.com/pngs/258/141/png-transparent-caipirinha-caipiroska-mojito-sea-breeze-cocktail-garnish-mojito-recipe-non-alcoholic-beverage-lime-juice.png">
+          </ion-item>
+          <ion-item>
+            <ion-button slot="end">
+              <ion-icon name="cart"></ion-icon>
+            </ion-button>
+            <ion-label>R$15,00</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col> <!-- FINAL DA CAIPIROSKA -->
 
-    <ion-item>
-      <ion-thumbnail>
-        <img src="https://apoioentrega.vteximg.com.br/arquivos/ids/499157/REFRIG-PEPSI-200ML-PET-COLA-BLACK.png?v=637807804371800000">
-      </ion-thumbnail>
-      <ion-badge slot="end">R$ 13,00</ion-badge>
-      <ion-label>Pespi pode ser</ion-label>
-    </ion-item>
 
-    <ion-item>
-      <ion-thumbnail>
-        <img src="https://t2.rg.ltmcdn.com/pt/posts/4/9/8/caipirinha_de_vodka_com_limao_8894_orig.jpg">
-      </ion-thumbnail>
-      <ion-badge slot="end">R$ 23,00</ion-badge>
-      <ion-label>Dolly limão, uma questão de bom senso</ion-label>
-    </ion-item>
 
-    <ion-item>
-      <ion-thumbnail>
-        <img src="https://images-americanas.b2w.io/produtos/3081984565/imagens/canecao-caveira-para-chopp-cerveja-500-ml/3081984573_1_large.jpg">
-      </ion-thumbnail>
-      <ion-badge slot="end">€ 9,00</ion-badge>
-      <ion-label>Pint</ion-label>
-    </ion-item>
-  </ion-list>
+    </ion-row>
+  </ion-grid>
 
 </ion-content>
