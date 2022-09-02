@@ -1,15 +1,14 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-button slot="end" shape="round">
-      <ion-icon slot="icon-only" name="person-circle"></ion-icon>
-    </ion-button>
-    <ion-title>Cardápio</ion-title>
+  <ion-toolbar color="pretoazulado">
+      <ion-button slot="end" shape="round">
+        <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+      </ion-button>
+      <ion-title>Cardápio</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-searchbar placeholder="Buscar"></ion-searchbar>
-
+<ion-content [fullscreen]="true" color="dark">
+  <ion-searchbar placeholder="Buscar" color="pretoazulado"></ion-searchbar>
   <ion-grid>
     <ion-row>
       <ion-col size="6">
@@ -17,10 +16,8 @@
           <ion-card-header>
             <ion-label>Coquinha</ion-label>
           </ion-card-header>
-          <ion-item>
             <img src="https://www.mundodomarketing.com.br/assets/img/lancamentos/imagem/ca0d3e28059ed0c99bfe908e87ea0e1c.jpg">
-          </ion-item>
-          <ion-item>
+          <ion-item color="pretoazulado">
             <ion-button slot="end">
               <ion-icon name="cart"></ion-icon>
             </ion-button>
@@ -33,11 +30,8 @@
           <ion-card-header>
             <ion-label>Whisky</ion-label>
           </ion-card-header>
-          <ion-item>
-            <img
-              src="https://carrefourbr.vtexassets.com/arquivos/ids/36955052-800-auto?v=637812556786070000&width=800&height=auto&aspect=true">
-          </ion-item>
-          <ion-item>
+            <img src="https://carrefourbr.vtexassets.com/arquivos/ids/36955052-800-auto?v=637812556786070000&width=800&height=auto&aspect=true">
+          <ion-item  color="pretoazulado">
             <ion-button slot="end">
               <ion-icon name="cart"></ion-icon>
             </ion-button>
@@ -48,32 +42,28 @@
       <ion-col size="6">
         <ion-card>
           <ion-card-header>
-            <ion-label>Duff</ion-label>
+            <ion-label>Fanta Laranja</ion-label>
           </ion-card-header>
-          <ion-item>
-            <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/duff-beer-logo.png">
-          </ion-item>
-          <ion-item>
+            <img src="https://www.drogariaminasbrasil.com.br/media/product/dc1/refrigerante-fanta-laranja-lata-350ml-6eb.jpg">
+          <ion-item  color="pretoazulado">
             <ion-button slot="end">
               <ion-icon name="cart"></ion-icon>
             </ion-button>
-            <ion-label>$5,99</ion-label>
+            <ion-label>R$5,99</ion-label>
           </ion-item>
         </ion-card>
-      </ion-col> <!-- FINAL DO WHISKY -->
+      </ion-col> <!-- FINAL DO FANTA -->
       <ion-col size="6">
         <ion-card>
           <ion-card-header>
-            <ion-label>Chug Jugg</ion-label>
+            <ion-label>Guaraná Antartica</ion-label>
           </ion-card-header>
-          <ion-item>
-            <img src="https://i.pinimg.com/originals/ff/75/a0/ff75a0f7f0bd7ab2542558e46380805c.png">
-          </ion-item>
-          <ion-item>
+            <img src="https://cdn.awsli.com.br/1000x1000/1472/1472647/produto/57180165/2ac86323d0.jpg" >
+          <ion-item  color="pretoazulado">
             <ion-button slot="end">
               <ion-icon name="cart"></ion-icon>
             </ion-button>
-            <ion-label>R$500,00</ion-label>
+            <ion-label>R$5,00</ion-label>
           </ion-item>
         </ion-card>
       </ion-col> <!-- FINAL DO CHUG JUG -->
@@ -82,10 +72,8 @@
           <ion-card-header>
             <ion-label>Cerveja Artesanal</ion-label>
           </ion-card-header>
-          <ion-item>
             <img src="https://images.tcdn.com.br/img/img_prod/1052911/cerveja_schornstein_ipa_garrafa_500ml_1285_1_4c00dd64a3842fd305745a1cb7672ae6.png">
-          </ion-item>
-          <ion-item>
+          <ion-item  color="pretoazulado">
             <ion-button slot="end">
               <ion-icon name="cart"></ion-icon>
             </ion-button>
@@ -98,10 +86,8 @@
           <ion-card-header>
             <ion-label>Caipiroska</ion-label>
           </ion-card-header>
-          <ion-item>
-            <img src="https://w7.pngwing.com/pngs/258/141/png-transparent-caipirinha-caipiroska-mojito-sea-breeze-cocktail-garnish-mojito-recipe-non-alcoholic-beverage-lime-juice.png">
-          </ion-item>
-          <ion-item>
+            <img src="https://cdn.diffords.com/contrib/stock-images/2018/05/5af2fec6171c4.jpg">
+          <ion-item  color="pretoazulado">
             <ion-button slot="end">
               <ion-icon name="cart"></ion-icon>
             </ion-button>
@@ -114,5 +100,4 @@
 
     </ion-row>
   </ion-grid>
-
 </ion-content>
